@@ -1,0 +1,16 @@
+.row-one {
+  padding: 20px 5%;
+}
+.skills-img {
+  width: 200px;
+  margin: 20px;
+}
+.skills-img h3 {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  color: red;
+}
+h3 {
+  text-align: center;
+}

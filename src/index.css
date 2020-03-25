@@ -1,0 +1,10 @@
+html {
+  font-family: 'Namun Gothic', Arial, sans-serif;
+  color: #494c4e;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
