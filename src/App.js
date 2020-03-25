@@ -6,7 +6,7 @@ import Home from './pages/Home.jsx';
 import Skills from './pages/Skills.jsx';
 import Contact from './pages/Contact.jsx';
 import Portfolio from './pages/Portfolio';
-import Footer from './pages/footer';
+import Footer from './components/Footer';
 class App extends Component {
   render() {
     return (
@@ -16,7 +16,9 @@ class App extends Component {
           <Route path="/skills" component={Skills}/>
           <Route path="/contact" component={Contact}/>
           <Route path="/portfolio" component={Portfolio}/>
+          <Route path="/footer" component={Footer}/>
         </div>
+        
       </Router>
     );
   }
